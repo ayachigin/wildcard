@@ -2,7 +2,6 @@ module Text.Wildcard (match) where
 
 
 import Data.List (isPrefixOf)
-import Debug.Trace (trace)
 
 
 -- |
