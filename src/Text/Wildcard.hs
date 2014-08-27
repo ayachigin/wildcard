@@ -22,7 +22,6 @@ match "" "" = True
 match _ "*" = True
 match _ ""  = False
 match "" xs = all (=='*') xs
-match _ "*?" = True              
 match
   str@(x:xs)
   wild@(y:ys)
